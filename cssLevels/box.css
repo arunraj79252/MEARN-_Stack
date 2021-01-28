@@ -1,0 +1,36 @@
+#top
+{   
+    position: absolute;
+    left: 20;
+    font-size: 200%;
+    color: ghostwhite;
+    background-color: burlywood;
+    border-style: solid;
+    height: 50px;
+    width:30%;
+    margin-left: 20%;
+    padding-left: 30%;
+    padding-top: 5%;
+    padding-bottom:5%;
+}
+#bottom{
+    position: absolute;
+    font-size: 200%;
+    color: ghostwhite;
+    background-color: burlywood;
+    border-style: solid;
+    height: 50px;
+    width:30%;
+    padding-top: 5%;
+    /* margin-left: 20%;*/
+    margin-top:20%; 
+    padding-left: 30%;
+    padding-bottom:5%;
+}
+h1{
+    font-family: 'Potta One', cursive;
+text-align: center;
+}
+body{
+    background-color: gainsboro;
+}
