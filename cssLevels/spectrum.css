@@ -1,0 +1,49 @@
+h1{
+
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+#a{
+position: relative;
+margin-left: 10%;
+background-color: cornflowerblue;
+width: 15%;
+padding-bottom: 30%;
+float: left;
+}
+#b{
+    position: relative;
+    background-color: cyan;
+    width: 15%;
+     margin-left: 2%; 
+    float: left;
+
+    padding-bottom: 30%;
+    
+}
+#c{
+    position: relative;
+    background-color: darkgrey;
+    width: 15%;
+    margin-left: 2%; 
+    float: left;
+    padding-bottom: 30%;
+    
+}
+#d{
+    position: relative;
+    background-color: darksalmon;
+    width: 15%;
+    margin-left: 2%; 
+    float: left;
+    padding-bottom: 30%;
+}
+#e{
+position: relative;
+background-color: deeppink;
+width: 15%;
+ margin-left: 2%; 
+float: left;
+padding-bottom: 30%;
+    
+}
