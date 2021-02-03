@@ -15,3 +15,17 @@ span{
     margin-top: 5%;
     margin-left: 7%;
 }
+.learn{
+    width: 200px;
+    position: relative;
+    background-color: blue;
+    margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 30px;
+
+}
+.learn:hover{
+
+    background-color: darkgray;
+    color: darkslateblue;
+}
