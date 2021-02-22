@@ -2,10 +2,10 @@ class Employee{
 
     constructor(id,name,desig,sal)
     {
-        id=this.id;
-        name=this.name;
-        desig=this.desig;
-        sal=this.sal;
+        this.id=id;
+       this.name=name;
+        this.desig=desig;
+        this.sal=sal;
 
 
     }
@@ -19,18 +19,21 @@ employee.push(obj1);
 employee.push(obj2);
 employee.push(obj3);
 employee.push(obj4);
-for (let emp of employee)
-{
-    if(emp.desig=="developer")
-{
-    console.log(emp);
-}
+employee.map(emp=>emp["name"].toUpperCase()).forEach(emp=>console.log(emp))
+// for (let emp of employee)
+// {
+//     if(emp.desig=="developer")
+// {
+//     console.log(emp);
+// }
 
 
-}
- var maxsal=employee.reduce((emp1,emp2)=>emp1.sal>emp2.sal?emp1.sal:emp2.sal);
- console.log("highest salary is"+maxsal);
- var enames=employee.map(emp=>emp.name.toUpperCase());
-console.log(enames);
-var devops=employee.filter(emp=>emp.name=="developer");
-console.log(devops);
+// }
+//  var maxsal=employee.reduce((emp1,emp2)=>emp1.sal>emp2.sal?emp1.sal:emp2.sal);
+//  console.log("highest salary is"+maxsal);
+//  var enames=employee.map(emp=>emp.name.toUppercase());
+// console.log(enames);
+// var devops=employee.filter(emp=>emp.name=="developer");
+// console.log(devops);
+// //sorting
+// employee.sort((o1,o2)=>o1.sal>o2.sal?-1:1).forEach(emp=>console.log(emp));

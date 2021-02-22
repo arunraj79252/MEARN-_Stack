@@ -16,3 +16,4 @@ console.log(data1);
 var sum=ar.reduce((num1,num2)=>num1+num2);
 console.log(sum);//reduce
 var max=ar.reduce((num1,num2)=>num1>num2? num1:num2);//ternory operator
+ar.sort((o1,o2)=>o1>o2? -1:1).forEach(o=>console.log(o));
