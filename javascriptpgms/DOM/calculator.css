@@ -1,0 +1,15 @@
+body{
+    background-color: cornflowerblue;
+}
+input{
+width:60px;
+height: 60px;
+background-color: cornsilk;
+
+}
+#disp{
+width:260px;
+text-align: right;
+background-color: whitesmoke;
+
+}

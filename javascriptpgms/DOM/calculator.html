@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<script src="calculator.js"></script>
+<body>
+<form action="">
+<table>
+    <tr>
+        <td colspan="4">
+            <input id="disp" type="text" name="display">
+        </td>
+    </tr>
+    <tr>
+        <td> <input type="button" value="1" onclick="dispBox('1')" name="one"></td>
+       <td><input type="button" value="2" onclick="dispBox('2')" name="two"></td>
+        <td><input type="button" value="3"  onclick="dispBox('3')" name="three"></td>
+        
+        <td><input type="button" value="+" onclick="dispBox('+')" name="plus"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="4" onclick="dispBox('4')" name="four"></td>
+        <td><input type="button" value="5" onclick="dispBox('5')" name="five"></td>
+        <td><input type="button" value="6" onclick="dispBox('6')" name="six"></td>
+        <td><input type="button" value="-" onclick="dispBox('-')" name="minus"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="7" onclick="dispBox('7')" name="seven"></td>
+        <td><input type="button" value="8" onclick="dispBox('8')" name="eight"></td>
+        <td><input type="button" value="9" onclick="dispBox('9')" name="nine"></td>
+        <td><input type="button" value="*" onclick="dispBox('*')" name="mul"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="0" onclick="dispBox('0')" name="zero"></td>
+        <td><input type="button" value="/" onclick="dispBox('/')" name="divi"></td>
+        <td><input type="button" value="C" onclick="clearBox()" name="clear"></td>
+        <td><input id="cl" type="button" onclick="equal()" value="=" name="eq"></td>
+    </tr>
+    <tr>
+        <td>
+            <input type="button" onclick="prime()" value="prime or not">
+        </td>
+    <td>
+        <input type="button" onclick="bck()" value="back">
+    </td></tr>
+</table>
+
+
+</form>
+    
+</body>
+</html>
